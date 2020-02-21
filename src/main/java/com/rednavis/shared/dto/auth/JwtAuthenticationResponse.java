@@ -1,17 +1,13 @@
 package com.rednavis.shared.dto.auth;
 
+import lombok.Builder;
 import lombok.Getter;
 
 @Getter
+@Builder
 public class JwtAuthenticationResponse {
 
-  private static final String TOKEN_TYPE = "Bearer";
-
-  private String tokenType;
+  @Builder.Default
+  private String tokenType = "Bearer";
   private String accessToken;
-
-  public JwtAuthenticationResponse(String accessToken) {
-    tokenType = TOKEN_TYPE;
-    this.accessToken = accessToken;
-  }
 }
