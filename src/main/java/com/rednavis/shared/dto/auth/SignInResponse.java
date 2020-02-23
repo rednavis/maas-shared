@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @Builder
-public class JwtAuthenticationResponse {
+public class SignInResponse {
 
   @Builder.Default
   private String tokenType = "Bearer";
