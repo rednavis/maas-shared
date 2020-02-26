@@ -1,10 +1,8 @@
 package com.rednavis.shared.dto.auth;
 
-import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
-@Builder
+@Data
 public class SignUpResponse {
 
   private String id;

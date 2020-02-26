@@ -1,13 +1,10 @@
 package com.rednavis.shared.dto.auth;
 
-import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
-@Builder
+@Data
 public class SignInResponse {
 
-  @Builder.Default
   private String tokenType = "Bearer";
   private String accessToken;
 }

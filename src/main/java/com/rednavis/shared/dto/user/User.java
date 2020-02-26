@@ -1,13 +1,9 @@
 package com.rednavis.shared.dto.user;
 
 import java.util.Set;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
-@Builder
+@Data
 public class User {
 
   private String id;

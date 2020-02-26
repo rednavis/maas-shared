@@ -1,10 +1,8 @@
 package com.rednavis.shared.dto.auth;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class SignInRequest {
 
   private String email;
