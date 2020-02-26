@@ -4,3 +4,11 @@
 
 # maas-shared
 Common code that may be used on client-side and server-side
+
+## Create dependency report
+
+`./gradlew clean htmlDependencyReport`
+
+## Update dependency
+
+`./gradlew dependencyUpdates`

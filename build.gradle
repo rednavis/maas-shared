@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'idea'
+    id 'com.github.ben-manes.versions' version '0.28.0'
 }
 
 apply plugin: 'project-report' // ./gradlew clean htmlDependencyReport
@@ -42,5 +43,5 @@ jacocoTestReport {
 }
 
 wrapper {
-    gradleVersion = "6.2"
+    gradleVersion = "6.2.1"
 }
