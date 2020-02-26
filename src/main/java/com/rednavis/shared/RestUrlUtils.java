@@ -3,7 +3,7 @@ package com.rednavis.shared;
 import lombok.experimental.UtilityClass;
 
 @UtilityClass
-public class RestUrl {
+public class RestUrlUtils {
 
   public static final String AUTH_URL = "/api/auth";
   public static final String AUTH_URL_PATTERN = AUTH_URL + "/**";
