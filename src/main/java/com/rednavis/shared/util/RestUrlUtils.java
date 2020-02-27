@@ -1,4 +1,4 @@
-package com.rednavis.shared;
+package com.rednavis.shared.util;
 
 import lombok.experimental.UtilityClass;
 
