@@ -1,4 +1,4 @@
-package com.rednavis.shared.dto.auth;
+package com.rednavis.shared.rest.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

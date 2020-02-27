@@ -1,4 +1,4 @@
-package com.rednavis.shared.dto.auth;
+package com.rednavis.shared.rest.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TestResponse {
+public class SignUpResponse {
 
-  private String valueOutput;
+  private String id;
 }
