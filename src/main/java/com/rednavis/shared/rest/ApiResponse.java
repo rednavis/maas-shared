@@ -13,10 +13,10 @@ public class ApiResponse<T> {
   private T payloads;
 
   public static <T> ApiResponse<T> createSuccessResponse(T payloads) {
-    return new ApiResponse(true, HttpStatusCode.OK, payloads);
+    return new ApiResponse<>(true, HttpStatusCode.OK, payloads);
   }
 
   public static <T> ApiResponse<T> createErrorResponse(HttpStatusCode httpStatusCode, T payloads) {
-    return new ApiResponse(false, httpStatusCode, payloads);
+    return new ApiResponse<>(false, httpStatusCode, payloads);
   }
 }
