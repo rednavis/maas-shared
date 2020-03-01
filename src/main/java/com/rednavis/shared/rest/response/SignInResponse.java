@@ -16,4 +16,5 @@ public class SignInResponse {
   @Builder.Default
   private String tokenType = BEARER;
   private String accessToken;
+  private String refreshToken;
 }
