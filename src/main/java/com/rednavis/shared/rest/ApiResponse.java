@@ -3,8 +3,10 @@ package com.rednavis.shared.rest;
 import com.rednavis.shared.http.HttpStatusCode;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 public class ApiResponse<T> {
 
