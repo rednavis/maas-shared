@@ -16,5 +16,7 @@ public class SignInResponse {
   @Builder.Default
   private String tokenType = BEARER;
   private String accessToken;
+  private int accessTokenExpiration;
   private String refreshToken;
+  private int refreshTokenExpiration;
 }
