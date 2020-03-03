@@ -3,6 +3,7 @@
 [![codecov](https://codecov.io/gh/rednavis/maas-shared/branch/master/graph/badge.svg)](https://codecov.io/gh/rednavis/maas-shared)
 
 # maas-shared
+
 Common code that may be used on client-side and server-side
 
 ## Create dependency report

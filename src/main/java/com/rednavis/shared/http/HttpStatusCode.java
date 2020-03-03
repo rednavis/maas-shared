@@ -60,13 +60,11 @@ public enum HttpStatusCode {
   TIMEOUT_OCCURRED(524, "A timeout occurred");
 
   @Getter
-  private final int code;
+  private int code;
   @Getter
-  private
-  final String desc;
+  private String desc;
   @Getter
-  private
-  final String text;
+  private String text;
 
   HttpStatusCode(int code, String desc) {
     this.code = code;
