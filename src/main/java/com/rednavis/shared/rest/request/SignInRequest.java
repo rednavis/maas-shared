@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class SignInRequest {
 
-  private String email;
+  private String userName;
   private String password;
 }

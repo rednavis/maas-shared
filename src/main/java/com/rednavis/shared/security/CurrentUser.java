@@ -16,6 +16,7 @@ public class CurrentUser {
   private String id;
   private String firstName;
   private String lastName;
+  private String userName;
   private String email;
   private Set<RoleEnum> roles;
 }
