@@ -12,6 +12,12 @@ public class StringUtils {
   public static final String BEARER = "Bearer";
   public static final String BEARER_SPACE = BEARER + SPACE;
 
+  /**
+   * isEmailValid.
+   *
+   * @param email email
+   * @return
+   */
   public static boolean isEmailValid(String email) {
     if (email == null || email.isBlank()) {
       return false;
