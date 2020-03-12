@@ -25,4 +25,8 @@ public class StringUtils {
     Pattern pat = Pattern.compile(EMAIL_REGEX);
     return pat.matcher(email).matches();
   }
+
+  public static boolean isNullOrBlank(String str) {
+    return str == null || str.isBlank();
+  }
 }
