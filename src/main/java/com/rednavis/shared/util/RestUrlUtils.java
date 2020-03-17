@@ -16,4 +16,5 @@ public class RestUrlUtils {
   public static final String USER_URL_PATTERN = USER_URL + "/**";
   public static final String USER_URL_USER = "/user";
   public static final String USER_URL_ADMIN = "/admin";
+  public static final String USER_URL_FINDALL = "/findAll";
 }
