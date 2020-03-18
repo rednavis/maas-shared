@@ -17,4 +17,11 @@ public class RestUrlUtils {
   public static final String USER_URL_USER = "/user";
   public static final String USER_URL_ADMIN = "/admin";
   public static final String USER_URL_FINDALL = "/findAll";
+
+  public static final String BOOK_URL = "/api/books";
+  public static final String BOOK_URL_PATTERN = BOOK_URL + "/**";
+  public static final String BOOK_URL_INSERT = "/insert";
+  public static final String BOOK_URL_SAVE = "/save";
+  public static final String BOOK_URL_FINDALL = "/findAll";
+  public static final String BOOK_URL_DELETE = "/delete";
 }
