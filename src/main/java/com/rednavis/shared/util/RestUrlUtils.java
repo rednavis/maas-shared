@@ -23,5 +23,6 @@ public class RestUrlUtils {
   public static final String BOOK_URL_INSERT = "/insert";
   public static final String BOOK_URL_SAVE = "/save";
   public static final String BOOK_URL_FINDALL = "/findAll";
+  public static final String BOOK_URL_COUNT = "/count";
   public static final String BOOK_URL_DELETE = "/delete";
 }
