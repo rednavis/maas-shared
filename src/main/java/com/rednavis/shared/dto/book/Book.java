@@ -1,8 +1,10 @@
 package com.rednavis.shared.dto.book;
 
 import lombok.Data;
+import lombok.experimental.FieldNameConstants;
 
 @Data
+@FieldNameConstants
 public class Book {
 
   private String id;
