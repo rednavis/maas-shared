@@ -8,6 +8,7 @@ import lombok.experimental.FieldNameConstants;
 public class Book {
 
   private String id;
+  private int count;
   private String title;
   private String author;
   private int pageCount;
