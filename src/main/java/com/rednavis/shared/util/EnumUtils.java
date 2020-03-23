@@ -1,6 +1,7 @@
 package com.rednavis.shared.util;
 
 import java.util.Arrays;
+
 import lombok.experimental.UtilityClass;
 
 @UtilityClass

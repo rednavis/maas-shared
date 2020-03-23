@@ -1,7 +1,8 @@
 package com.rednavis.shared.security;
 
-import com.rednavis.shared.dto.user.RoleEnum;
 import java.util.Set;
+
+import com.rednavis.shared.dto.user.RoleEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
