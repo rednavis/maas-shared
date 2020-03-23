@@ -34,9 +34,11 @@
     <property name="max" value="140"/>
     <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
   </module>
+  <module name="SuppressWarningsFilter"/>
   <!-- https://checkstyle.org/config_filters.html#SuppressionFilter -->
   <module name="TreeWalker">
     <module name="OuterTypeFilename"/>
+    <module name="SuppressWarningsHolder"/>
     <module name="IllegalTokenText">
       <property name="tokens" value="STRING_LITERAL, CHAR_LITERAL"/>
       <property name="format"
@@ -223,8 +225,8 @@
     <module name="VariableDeclarationUsageDistance"/>
     <module name="CustomImportOrder">
       <property name="sortImportsInGroupAlphabetically" value="true"/>
-      <property name="separateLineBetweenGroups" value="true"/>
-      <property name="customImportOrderRules" value="STATIC###THIRD_PARTY_PACKAGE"/>
+      <property name="separateLineBetweenGroups" value="false"/>
+      <property name="customImportOrderRules" value="STATIC###STANDARD_JAVA_PACKAGE###THIRD_PARTY_PACKAGE"/>
       <property name="tokens" value="IMPORT, STATIC_IMPORT, PACKAGE_DEF"/>
     </module>
     <module name="MethodParamPad">
