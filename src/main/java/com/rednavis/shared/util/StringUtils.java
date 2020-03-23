@@ -1,7 +1,6 @@
 package com.rednavis.shared.util;
 
 import java.util.regex.Pattern;
-
 import lombok.experimental.UtilityClass;
 
 @UtilityClass
